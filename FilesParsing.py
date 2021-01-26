@@ -45,8 +45,8 @@ def task_one():
                     events_on_date.update({re.search(regex_for_date, msg).group(0): 1})
                 else:
                     events_on_date.update(
-                        {re.search(regex_for_date, msg).group(0): (
-                             events_on_date.get(re.search(regex_for_date, msg).group(0)) + 1)})
+                        {re.search(regex_for_date, msg).group(0):
+                            (events_on_date.get(re.search(regex_for_date, msg).group(0)) + 1)})
     with open("./output.txt", 'a') as output_file:
         if len(msgs_with_err) != 0:
             output_file.write("There are " + str(len(msgs_with_err)) +
