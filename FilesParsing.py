@@ -4,7 +4,7 @@ import subprocess
 
 # A function that pastes disk IDs into command
 # 'symaccess list -type stor -dev DISKID -sid 723'
-def paste_disk_ids(d_id):
+def paste_disk_id(d_id):
     subprocess.call('symaccess list -type stor -dev ' + d_id +
                     ' -sid 723', shell=True)
 
@@ -58,7 +58,7 @@ def task_one():
 
 # 1. From vmax.txt we extract disk IDs using regular expression;
 
-# 2. Then we pass that IDs to custom function paste_disk_ids;
+# 2. Then we pass that IDs to custom function paste_disk_id;
 
 # 3. That function pastes IDs into command
 # 'symaccess list -type stor -dev DISKID -sid 723'.
@@ -68,7 +68,7 @@ def task_two():
         for line in vmax_file:
             disk_id = re.search(regex_for_disk_ids, line)
             if disk_id is not None:
-                paste_disk_ids(disk_id[1])
+                paste_disk_id(disk_id[1])
 
 
 def main():
