@@ -35,12 +35,12 @@ def dict_pretty_print(d):
 def task_one():
     regex_for_err = re.compile('<err>')
     regex_for_date = re.compile(r'\d{4}-\d{2}-\d{2}')
-    msgs_with_err = []
+    msgs_with_err = 0
     events_on_date = {}
     with open("./messages.txt", "r") as message_file:
         for msg in message_file:
             if re.search(regex_for_err, msg) is not None:
-                msgs_with_err.append(re.search(regex_for_err, msg))
+                msgs_with_err = msgs_with_err + 1
                 if re.search(regex_for_date, msg).group(0) not in events_on_date:
                     events_on_date.update({re.search(regex_for_date, msg).group(0): 1})
                 else:
@@ -48,8 +48,8 @@ def task_one():
                         {re.search(regex_for_date, msg).group(0):
                             (events_on_date.get(re.search(regex_for_date, msg).group(0)) + 1)})
     with open("./output.txt", 'a') as output_file:
-        if len(msgs_with_err) != 0:
-            output_file.write("There are " + str(len(msgs_with_err)) +
+        if msgs_with_err != 0:
+            output_file.write("There are " + str(msgs_with_err) +
                               " messages with <err>" + "\n\n")
             output_file.write(dict_pretty_print(events_on_date))
         else:
