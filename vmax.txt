@@ -1,0 +1,43 @@
+Name: SG_vgsc01hw-02hw
+
+   Symmetrix ID               : 000292603723
+   Last updated at            : Mon Dec 05 12:52:52 2016
+   Masking Views              : Yes
+   FAST Managed               : No
+   Service Level Name         : N/A
+   Workload                   : N/A
+   SRP Name                   : N/A
+   VP Saved (%)               : N/A
+   Compression Enabled        : N/A
+   Compression Ratio          : N/A
+   Host I/O Limit             : None
+   Host I/O Limit MB/Sec      : N/A
+   Host I/O Limit IO/Sec      : N/A
+   Dynamic Distribution       : N/A
+   Number of Gatekeepers      :    0
+
+   Devices (18):
+    {
+    ----------------------------------------------------------------
+    Sym                             Device                      Cap
+    Dev    Pdev Name                Config         Attr  Sts    (MB)
+    ----------------------------------------------------------------
+    002A9  N/A                      TDEV                  RW   71680
+    002AA  N/A                      TDEV                  RW  215041
+    002AB  N/A                      TDEV                  RW   71680
+    002AC  N/A                      TDEV                  RW  286721
+    002AD  N/A                      TDEV                  RW   71680
+    002AE  N/A                      TDEV                  RW  215041
+    002B2  N/A                      TDEV                  RW  2048006
+    00564  N/A                      TDEV                  RW  215040
+    0119D  N/A                      TDEV                  RW  614400
+    0143D  N/A                      TDEV                  RW  153600
+    0143E  N/A                      TDEV                  RW  153600
+    01790  N/A                      TDEV                  RW  307201
+    01793  N/A                      TDEV                  RW  3194880
+    017A0  N/A                      TDEV                  RW  491520
+    017A2  N/A                      TDEV                  RW  737280
+    017A4  N/A                      TDEV                  RW    2014
+    017A5  N/A                      TDEV                  RW  179201
+    019A8  N/A                      TDEV                  RW  1228804
+    }

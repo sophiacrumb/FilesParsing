@@ -1,0 +1,118 @@
+<err>2019-12-16 20:01:01.120228 s-msk-p-xms1 kernel:      Not tainted 2.6.32-754.el6.x86_64 #1
+<err>2019-12-16 20:01:01.120229 s-msk-p-xms1 kernel:"echo 0 > /proc/sys/kernel/hung_task_timeout_secs" disables this message.
+<err>2019-12-18 11:52:30.589155 s-msk-p-xms1 ECOM:
+<err>2019-12-18 11:52:30.589190 s-msk-p-xms1 ECOM: SIGTERM received at 1576659150, shutting down...
+<err>2019-12-18 11:52:30.589194 s-msk-p-xms1 ECOM:
+<err>2020-01-13 01:50:28.627356 s-msk-p-xms1 pidof[8151]: can't read sid from 8104/stat
+<err>2020-02-05 10:00:18.489740 s-msk-p-xms1 ECOM:
+<err>2020-02-05 10:00:18.489772 s-msk-p-xms1 ECOM: SIGTERM received at 1580886018, shutting down...
+<err>2020-02-05 10:00:18.489776 s-msk-p-xms1 ECOM:
+<err>2020-02-05 10:17:02.013024 s-msk-p-xms1 ECOM:
+<err>2020-02-05 10:17:02.013045 s-msk-p-xms1 ECOM: SIGTERM received at 1580887022, shutting down...
+<err>2020-02-05 10:17:02.013048 s-msk-p-xms1 ECOM:
+<err>2020-02-09 15:03:33.902364 s-msk-p-xms1 ECOM:
+<err>2020-02-09 15:03:33.902382 s-msk-p-xms1 ECOM: SIGTERM received at 1581249813, shutting down...
+<err>2020-02-09 15:03:33.902385 s-msk-p-xms1 ECOM:
+<err>2020-02-09 15:07:46.845807 s-msk-p-xms1 ECOM:
+<err>2020-02-09 15:07:46.845822 s-msk-p-xms1 ECOM: SIGTERM received at 1581250066, shutting down...
+<err>2020-02-09 15:07:46.845827 s-msk-p-xms1 ECOM:
+<err>2020-02-09 15:17:21.299437 s-msk-p-xms1 ECOM:
+<err>2020-02-09 15:17:21.299448 s-msk-p-xms1 ECOM: SIGTERM received at 1581250641, shutting down...
+<err>2020-02-09 15:17:21.299451 s-msk-p-xms1 ECOM:
+<err>2020-02-09 15:22:07.735618 s-msk-p-xms1 ECOM:
+<err>2020-02-09 15:22:07.735636 s-msk-p-xms1 ECOM: SIGTERM received at 1581250927, shutting down...
+<err>2020-02-09 15:22:07.735640 s-msk-p-xms1 ECOM:
+<err>2020-02-09 15:36:05.239600 s-msk-p-xms1 ECOM:
+<err>2020-02-09 15:36:05.239617 s-msk-p-xms1 ECOM: SIGTERM received at 1581251765, shutting down...
+<err>2020-02-09 15:36:05.239620 s-msk-p-xms1 ECOM:
+<err>2020-02-09 15:42:21.909555 s-msk-p-xms1 ECOM:
+<err>2020-02-09 15:42:21.909567 s-msk-p-xms1 ECOM: SIGTERM received at 1581252141, shutting down...
+<err>2020-02-09 15:42:21.909569 s-msk-p-xms1 ECOM:
+<err>2020-02-09 16:11:37.141888 s-msk-p-xms1 ECOM:
+<err>2020-02-09 16:11:37.141905 s-msk-p-xms1 ECOM: SIGTERM received at 1581253897, shutting down...
+<err>2020-02-09 16:11:37.141908 s-msk-p-xms1 ECOM:
+<err>2020-02-09 16:23:36.652887 s-msk-p-xms1 ECOM:
+<err>2020-02-09 16:23:36.652899 s-msk-p-xms1 ECOM: SIGTERM received at 1581254616, shutting down...
+<err>2020-02-09 16:23:36.652901 s-msk-p-xms1 ECOM:
+<err>2020-02-09 21:52:44.454969 s-msk-p-xms1 ECOM:
+<err>2020-02-09 21:52:44.454991 s-msk-p-xms1 ECOM: SIGTERM received at 1581274364, shutting down...
+<err>2020-02-09 21:52:44.454996 s-msk-p-xms1 ECOM:
+<err>2020-02-09 23:08:02.144551 s-msk-p-xms1 ECOM:
+<err>2020-02-09 23:08:02.144571 s-msk-p-xms1 ECOM: SIGTERM received at 1581278882, shutting down...
+<err>2020-02-09 23:08:02.144573 s-msk-p-xms1 ECOM:
+<err>2020-02-09 23:14:05.539305 s-msk-p-xms1 ECOM:
+<err>2020-02-09 23:14:05.539317 s-msk-p-xms1 ECOM: SIGTERM received at 1581279245, shutting down...
+<err>2020-02-09 23:14:05.539320 s-msk-p-xms1 ECOM:
+<err>2020-02-13 15:34:23.850525 s-msk-p-xms1 ECOM:
+<err>2020-02-13 15:34:23.850553 s-msk-p-xms1 ECOM: SIGTERM received at 1581597263, shutting down...
+<err>2020-02-13 15:34:23.850558 s-msk-p-xms1 ECOM:
+<err>2020-02-28 11:06:25.737753 localhost kernel:sd 2:0:0:0: [sda] Assuming drive cache: write through
+<err>2020-02-28 11:06:25.737755 localhost kernel:sd 2:0:0:0: [sda] Assuming drive cache: write through
+<err>2020-02-28 11:06:25.737759 localhost kernel:sd 2:0:0:0: [sda] Assuming drive cache: write through
+<err>2020-02-28 11:06:25.737846 localhost kernel:piix4_smbus 0000:00:07.3: Host SMBus controller not enabled!
+<err>2020-02-28 11:06:25.829828 localhost rpc.statd[1300]: failed to create RPC listeners, exiting
+<err>2020-02-28 11:06:26.560483 localhost kernel:ipmi_si (null): Interface detection failed
+<err>2020-02-28 11:06:26.565439 localhost kernel:ipmi_si (null): Interface detection failed
+<err>2020-02-28 11:06:26.573435 localhost kernel:ipmi_si (null): Interface detection failed
+<err>2020-02-28 11:06:28.543684 localhost ECOM:
+<err>2020-02-28 11:06:28.543706 localhost ECOM: SIGTERM received at 1582877188, shutting down...
+<err>2020-02-28 11:06:28.543710 localhost ECOM:
+<err>2020-02-28 11:06:38.349826 s-msk-p-xms1 audispd: No plugins found, exiting
+<err>2020-03-15 09:58:42.187063 s-msk-p-xms1 ECOM:
+<err>2020-03-15 09:58:42.187085 s-msk-p-xms1 ECOM: SIGTERM received at 1584255522, shutting down...
+<err>2020-03-15 09:58:42.187088 s-msk-p-xms1 ECOM:
+<warn>2020-03-15 09:58:45.471322 s-msk-p-xms1 init: ecom main process (2097) terminated with status 4
+<warn>2020-03-15 10:01:00.503974 s-msk-p-xms1 RPyC[21776]: BaseNetref.__del__(): ValueError (stream is closed) [oid=16400016]
+<warn>2020-03-15 10:01:00.603028 s-msk-p-xms1 RPyC[21776]: BaseNetref.__del__(): ValueError (stream is closed) [oid=11554448]
+<warn>2020-03-15 10:01:00.693243 s-msk-p-xms1 RPyC[21776]: BaseNetref.__del__(): ValueError (stream is closed) [oid=20254352]
+<warn>2020-03-15 10:01:00.758644 s-msk-p-xms1 RPyC[21776]: BaseNetref.__del__(): ValueError (stream is closed) [oid=14130832]
+<warn>2020-03-15 10:01:00.844269 s-msk-p-xms1 RPyC[21776]: BaseNetref.__del__(): ValueError (stream is closed) [oid=14176816]
+<warn>2020-03-15 10:01:00.844462 s-msk-p-xms1 RPyC[21776]: BaseNetref.__del__(): ValueError (stream is closed) [oid=13532552]
+<warn>2020-03-15 10:01:00.844472 s-msk-p-xms1 RPyC[21776]: BaseNetref.__del__(): ValueError (stream is closed) [oid=14165128]
+<warn>2020-03-15 10:01:00.844475 s-msk-p-xms1 RPyC[21776]: BaseNetref.__del__(): ValueError (stream is closed) [oid=14166424]
+<warn>2020-03-15 10:01:00.844478 s-msk-p-xms1 RPyC[21776]: BaseNetref.__del__(): ValueError (stream is closed) [oid=20300336]
+<warn>2020-03-15 10:01:00.844480 s-msk-p-xms1 RPyC[21776]: BaseNetref.__del__(): ValueError (stream is closed) [oid=19655496]
+<warn>2020-03-15 10:01:00.844488 s-msk-p-xms1 RPyC[21776]: BaseNetref.__del__(): ValueError (stream is closed) [oid=20288720]
+<warn>2020-03-15 10:01:00.844529 s-msk-p-xms1 RPyC[21776]: BaseNetref.__del__(): ValueError (stream is closed) [oid=20290016]
+<warn>2020-03-15 10:01:00.844630 s-msk-p-xms1 RPyC[21776]: BaseNetref.__del__(): ValueError (stream is closed) [oid=16446000]
+<warn>2020-03-15 10:01:00.844640 s-msk-p-xms1 RPyC[21776]: BaseNetref.__del__(): ValueError (stream is closed) [oid=15814240]
+<warn>2020-03-15 10:01:00.844642 s-msk-p-xms1 RPyC[21776]: BaseNetref.__del__(): ValueError (stream is closed) [oid=16434384]
+<warn>2020-03-15 10:01:00.844666 s-msk-p-xms1 RPyC[21776]: BaseNetref.__del__(): ValueError (stream is closed) [oid=16435680]
+<warn>2020-03-15 10:01:00.844703 s-msk-p-xms1 RPyC[21776]: BaseNetref.__del__(): ValueError (stream is closed) [oid=11600432]
+<warn>2020-03-15 10:01:00.844739 s-msk-p-xms1 RPyC[21776]: BaseNetref.__del__(): ValueError (stream is closed) [oid=10955520]
+<warn>2020-03-15 10:01:00.844778 s-msk-p-xms1 RPyC[21776]: BaseNetref.__del__(): ValueError (stream is closed) [oid=11588744]
+<warn>2020-03-15 10:01:00.844814 s-msk-p-xms1 RPyC[21776]: BaseNetref.__del__(): ValueError (stream is closed) [oid=11590040]
+<warn>2020-03-15 10:01:00.850705 s-msk-p-xms1 RPyC[21776]: BaseNetref.__del__(): ReferenceError (weakly-referenced object no longer exists) [oid=15691520]
+<warn>2020-03-15 10:01:00.850726 s-msk-p-xms1 RPyC[21776]: BaseNetref.__del__(): ReferenceError (weakly-referenced object no longer exists) [oid=15564080]
+<warn>2020-03-15 10:01:00.850744 s-msk-p-xms1 RPyC[21776]: BaseNetref.__del__(): ReferenceError (weakly-referenced object no longer exists) [oid=140710350519328]
+<warn>2020-03-15 10:01:00.850759 s-msk-p-xms1 RPyC[21776]: BaseNetref.__del__(): ReferenceError (weakly-referenced object no longer exists) [oid=16430256]
+<warn>2020-03-15 10:01:00.850775 s-msk-p-xms1 RPyC[21776]: BaseNetref.__del__(): ReferenceError (weakly-referenced object no longer exists) [oid=140710350518376]
+<warn>2020-03-15 10:01:00.850789 s-msk-p-xms1 RPyC[21776]: BaseNetref.__del__(): ReferenceError (weakly-referenced object no longer exists) [oid=15769760]
+<warn>2020-03-15 10:01:00.850805 s-msk-p-xms1 RPyC[21776]: BaseNetref.__del__(): ReferenceError (weakly-referenced object no longer exists) [oid=15770000]
+<warn>2020-03-15 10:01:00.851012 s-msk-p-xms1 RPyC[21776]: BaseNetref.__del__(): ReferenceError (weakly-referenced object no longer exists) [oid=19545856]
+<warn>2020-03-15 10:01:00.851030 s-msk-p-xms1 RPyC[21776]: BaseNetref.__del__(): ReferenceError (weakly-referenced object no longer exists) [oid=19360416]
+<warn>2020-03-15 10:01:00.851047 s-msk-p-xms1 RPyC[21776]: BaseNetref.__del__(): ReferenceError (weakly-referenced object no longer exists) [oid=140301617024032]
+<warn>2020-03-15 10:01:00.851085 s-msk-p-xms1 RPyC[21776]: BaseNetref.__del__(): ReferenceError (weakly-referenced object no longer exists) [oid=20284592]
+<warn>2020-03-15 10:01:00.851100 s-msk-p-xms1 RPyC[21776]: BaseNetref.__del__(): ReferenceError (weakly-referenced object no longer exists) [oid=140301617023080]
+<warn>2020-03-15 10:01:00.851103 s-msk-p-xms1 RPyC[21776]: BaseNetref.__del__(): ReferenceError (weakly-referenced object no longer exists) [oid=19624096]
+<warn>2020-03-15 10:01:00.851105 s-msk-p-xms1 RPyC[21776]: BaseNetref.__del__(): ReferenceError (weakly-referenced object no longer exists) [oid=19624336]
+<warn>2020-03-15 10:01:00.851131 s-msk-p-xms1 RPyC[21776]: BaseNetref.__del__(): ReferenceError (weakly-referenced object no longer exists) [oid=10846032]
+<warn>2020-03-15 10:01:00.851145 s-msk-p-xms1 RPyC[21776]: BaseNetref.__del__(): ReferenceError (weakly-referenced object no longer exists) [oid=10682208]
+<warn>2020-03-15 10:01:00.851160 s-msk-p-xms1 RPyC[21776]: BaseNetref.__del__(): ReferenceError (weakly-referenced object no longer exists) [oid=140113802062880]
+<warn>2020-03-15 10:01:00.851175 s-msk-p-xms1 RPyC[21776]: BaseNetref.__del__(): ReferenceError (weakly-referenced object no longer exists) [oid=11584688]
+<warn>2020-03-15 10:01:00.851190 s-msk-p-xms1 RPyC[21776]: BaseNetref.__del__(): ReferenceError (weakly-referenced object no longer exists) [oid=140113802061928]
+<warn>2020-03-15 10:01:00.851205 s-msk-p-xms1 RPyC[21776]: BaseNetref.__del__(): ReferenceError (weakly-referenced object no longer exists) [oid=10924272]
+<warn>2020-03-15 10:01:00.851220 s-msk-p-xms1 RPyC[21776]: BaseNetref.__del__(): ReferenceError (weakly-referenced object no longer exists) [oid=10924512]
+<warn>2020-03-15 10:01:00.851247 s-msk-p-xms1 RPyC[21776]: BaseNetref.__del__(): ReferenceError (weakly-referenced object no longer exists) [oid=13422416]
+<warn>2020-03-15 10:01:00.851257 s-msk-p-xms1 RPyC[21776]: BaseNetref.__del__(): ReferenceError (weakly-referenced object no longer exists) [oid=13309344]
+<warn>2020-03-15 10:01:00.851273 s-msk-p-xms1 RPyC[21776]: BaseNetref.__del__(): ReferenceError (weakly-referenced object no longer exists) [oid=140378532355104]
+<warn>2020-03-15 10:01:00.851288 s-msk-p-xms1 RPyC[21776]: BaseNetref.__del__(): ReferenceError (weakly-referenced object no longer exists) [oid=14161072]
+<warn>2020-03-15 10:01:00.851303 s-msk-p-xms1 RPyC[21776]: BaseNetref.__del__(): ReferenceError (weakly-referenced object no longer exists) [oid=140378532354152]
+<warn>2020-03-15 10:01:00.851317 s-msk-p-xms1 RPyC[21776]: BaseNetref.__del__(): ReferenceError (weakly-referenced object no longer exists) [oid=13500656]
+<warn>2020-03-15 10:01:00.851332 s-msk-p-xms1 RPyC[21776]: BaseNetref.__del__(): ReferenceError (weakly-referenced object no longer exists) [oid=13500896]
+<err>2020-03-15 11:04:48.572368 s-msk-p-xms1 ECOM:
+<err>2020-03-15 11:04:48.572384 s-msk-p-xms1 ECOM: SIGTERM received at 1584259488, shutting down...
+<err>2020-03-15 11:04:48.572386 s-msk-p-xms1 ECOM:
+<err>2020-04-02 16:00:40.051869 s-msk-p-xms1 ECOM:
+<err>2020-04-02 16:00:40.051900 s-msk-p-xms1 ECOM: SIGTERM received at 1585832439, shutting down...
+<err>2020-04-02 16:00:40.051904 s-msk-p-xms1 ECOM:
