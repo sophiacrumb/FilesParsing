@@ -1,5 +1,4 @@
 import re
-import DictionaryClass
 import subprocess
 
 
@@ -11,10 +10,13 @@ def paste_disk_ids(d_id):
 
 
 # A function that helps with dictionary pretty printing
-def dict_pretty_print(d, i):
-    return 'Date - ' + i + \
-           ' \nTotal number of messages happened on that date - ' + \
-           str(d[i]) + '\n\n'
+def dict_pretty_print(d):
+    pretty_string = ""
+    for key in d:
+        pretty_string = pretty_string + 'Date - ' + key + \
+                        ' \nTotal number of messages happened on that date - ' + \
+                        str(d[key]) + '\n\n'
+    return pretty_string
 
 
 # 1. From messages.txt we get all the lines
@@ -24,8 +26,7 @@ def dict_pretty_print(d, i):
 # and count number of messages happened on each
 # unique date we found;
 
-# 3. We create a dictionary (date is a key and number of messages is a value)
-# using custom type (NewDictionary);
+# 3. We create a dictionary (date is a key and number of messages is a value);
 
 # 3. We count number of messages that contain <err> and write it to output.txt;
 
@@ -35,28 +36,22 @@ def task_one():
     regex_for_err = re.compile('<err>')
     regex_for_date = re.compile(r'\d{4}-\d{2}-\d{2}')
     msgs_with_err = []
-    dates = []
-    # Dictionary of custom type (NewDictionary) with ADD operation
-    events_on_date = DictionaryClass.NewDictionary()
-    # Value for counting number of messages happened on particular date
-    events_count = 1
+    events_on_date = {}
     with open("./messages.txt", "r") as message_file:
         for msg in message_file:
             if re.search(regex_for_err, msg) is not None:
                 msgs_with_err.append(re.search(regex_for_err, msg))
-                dates.append(re.search(regex_for_date, msg).group(0))
-    for i in range(0, len(dates) - 1):
-        if dates[i] == dates[i + 1]:
-            events_count = events_count + 1
-        else:
-            events_on_date.add(dates[i], events_count)
-            events_count = 1
+                if re.search(regex_for_date, msg).group(0) not in events_on_date:
+                    events_on_date.update({re.search(regex_for_date, msg).group(0): 1})
+                else:
+                    events_on_date.update(
+                        {re.search(regex_for_date, msg).group(0): (
+                             events_on_date.get(re.search(regex_for_date, msg).group(0)) + 1)})
     with open("./output.txt", 'a') as output_file:
         if len(msgs_with_err) != 0:
             output_file.write("There are " + str(len(msgs_with_err)) +
                               " messages with <err>" + "\n\n")
-            for item in events_on_date:
-                output_file.write(dict_pretty_print(events_on_date, item))
+            output_file.write(dict_pretty_print(events_on_date))
         else:
             output_file.write("There are no messages with <err>")
 
